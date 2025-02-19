@@ -4,7 +4,7 @@
 read -p "Enter a name: " userName
 
 # Define main dir
-SUB_dir="submission_reminder_${userName}"
+S_dir="submission_reminder_${userName}"
 
 # Create directory one by one
 mkdir -p "$S_dir/config"
